@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape ZULQUARNAIN KHAN} \\ \vspace{1pt}
+    \small +91-9439690749 $|$ \href{mailto:x@x.com}{\underline{khanzulquar2003@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/zulquarnain-khan-29210126}} $|$
+    \href{https://github.com/...}{\underline{\href{https://github.com/ZulquarnainKhan}{github.com/ZulquarnainKhan)} }}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {International Institute of Information Technology}{Bhubanewar, Odisha}
+      {Bachelor of technology in Computer Science, 2nd year}{Nov. 2022 -- April 2026}
+      \resumeItem{Course Work : Design and analysis, Data Structure, Algorithms, OOPS, MicroProcessor, Digital Electronics}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+% \section{Experience}
+  % \resumeSubHeadingListStart
+
+  %   \resumeSubheading
+  %     {Summer Intern and Trainee}{June 2023 - Sept 2023 }
+  %     {Evable India pvt. Ltd (Remote)}{Bhubaneswar, Odisha}
+  %     \resumeItemListStart
+  %       \resumeItem{Spearheaded the design and implementation of Project , a groundbreaking initiative aimed at seamlessly connecting users and optimizing payment workflows.}
+  %       \resumeItem{Worked collaboratively within a dynamic team, fostering effective communication and contributing to a positive work environment.Acquired a profound understanding of software development methodologies, enhancing my proficiency.}
+  %     \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    % \resumeSubheading
+    %   {Technical Head}{Sep. 2023 -- Present}
+    %   {Coding Ninjas Student Chapter IIIT BBSR, GeeksForGeeks StudentChapter IIIT BBSR}{Bhubaneswar, Odisha}
+    %   \resumeItemListStart
+    %     \resumeItem{As the Technical Head of various Student Chapter at IIIT Bhubaneswar, I have spearheaded numerous initiatives aimed at fostering a culture of coding excellence and technical innovation among students. Through my leadership, I have played a pivotal role in organizing coding events, conducting coding sessions, and overseeing the development and maintenance of the chapter's website}
+    % \resumeItemListEnd
+    % \resumeSubheading
+    %   {Student Ambassador}{Jan. 2023 -- Present}
+    %   {Microsoft, GeeksForGeeks, Unstop, InternShala ISP, Nss IIT delhi}{Remote}
+
+  % \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+      {\textbf{HarvestHarbor} $|$ \emph{Solidity, Vite-React, Web3, Flask, Python, Tensorflow, HTML, CSS, JS }}{Mar 2024}
+          \resumeItemListStart
+            \resumeItem{Led the comprehensive development of Harvest Harbor, a pioneering agricultural platform intertwining machine learning models, blockchain technology, and user-friendly interfacesntegrates ML models to advise farmers on yield, disease detection, and crop suggestions, enhancing productivity . Facilitates secure crop transactions via Solidity smart contracts, ensuring transparency and efficiency in buying and selling agricultural produce. .}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Evault-3.0} $|$ Solidity, Vite-React, Axios(IPFS), MongoDB, Node, CSS}{Oct 2023 }
+          \resumeItemListStart
+            \resumeItem{Our project integrates Solidity smart contracts on the Ethereum network to store legal records securely. Using IPFS, files are stored in a decentralized manner. Backend integration allows access to government records for viewing previous data. }
+          \resumeItemListEnd
+          \resumeProjectHeading
+          {\textbf{Personal Portfolio} $|$ HTML, CSS,  JavaScript                }     {April 2023 }
+          \resumeItemListStart
+            \resumeItem{
+Create a compelling personal portfolio using HTML for structure, CSS for styling, and JavaScript for interactivity. Showcase projects, include an about me section, contact information, and ensure responsiveness for optimal viewing on all devices.  }
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills }
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{:  Solidity, mongoDb, Python,C/C++, SQL , JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: Vite-React, Web3, Tailwind, Axios, Mocha, Express, Node , Truffle} \\
+     \textbf{Developer Tools}{: VS Code, Remix-IDE, Metamask, Jupyter, Codeblocks, Git/Github } \\
+     % \textbf{Libraries}{: pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Requests}\\
+     \textbf{Others}{: DBMS, Problem Solving, Project Management, Leadership, Teamwork, Public Speaking, Analytical Thinking}
+    }}
+ \end{itemize}
+
+%-----------Achievements-----------
+\section{Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{- META/Facebook: What is metaverse?\\
+     - University at Buffalo: Blockchain(basic, smart contract, Dapp, Platforms) \\
+- Google: Project Management(Foundation, Initiation)
+     \textbf\\
+     
+          
+    }}
+ \end{itemize}
+%
+
+%-----------Achievements-----------
+\section{Achievements}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{- Expert at CodeStudio,  (250+ solved)\\
+     - 2 Star Coder at CodeChef, rating - 1442 (Solved more than 100+ questions )\\
+- HACKATHONS: Hackfest (Top 4)
+     \textbf\\
+     
+     
+    }}
+ \end{itemize}
+%
+
+\end{document}
